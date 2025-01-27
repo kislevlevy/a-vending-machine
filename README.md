@@ -1,6 +1,6 @@
 # AVendingMachine
 
-## Overview
+## Project Overview
 
 AVendingMachine is a modern web application designed for a company to showcase a catalog of vending machines. Users can browse products and view detailed information through an intuitive interface. Additionally, the site provides a way for customers to contact the company in case of any inquiries.
 
@@ -11,7 +11,7 @@ AVendingMachine is a modern web application designed for a company to showcase a
 - **Interactive UI**: Smooth animations and transitions using Framer Motion.
 - **Real-time Data**: Integration with Firebase for real-time updates.
 
-## Built With
+## Technologies and Tools
 
 <table>
     <tr>
@@ -70,15 +70,23 @@ AVendingMachine is a modern web application designed for a company to showcase a
 - **Build Tools**: Configuring and optimizing the development environment with Vite.
 - **Version Control**: Managing code changes and collaboration using Git and GitHub.
 
-## How to Run
+## Installation
 
-1. To run the development server, first install the dependencies by executing the following command:
+To run the project locally, follow these steps:
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kislevlevy/a-vending-machine
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd a-vending-machine
+   ```
+3. Install the dependencies:
    ```bash
    npm install
    ```
-
-2. Then, start the development server with:
+4. Start the development server:
    ```bash
    npm run dev
    ```

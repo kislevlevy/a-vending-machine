@@ -3,6 +3,7 @@ import config from '@/utils/config';
 import { LucideX } from 'lucide-react';
 import { useNavigate, useParams } from 'react-router-dom';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const formatter = function (key: string, val: any) {
   if (['גובה', 'רוחב', 'עומק'].includes(key)) return `${val / 100} מטר`;
   if (key === 'משקל') return `${val} ק"ג`;
