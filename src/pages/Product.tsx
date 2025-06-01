@@ -1,7 +1,8 @@
+import { useNavigate, useParams } from 'react-router-dom';
+import { LucideX } from 'lucide-react';
+
 import BlurFade from '@/components/ui/blur-fade';
 import config from '@/utils/config';
-import { LucideX } from 'lucide-react';
-import { useNavigate, useParams } from 'react-router-dom';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const formatter = function (key: string, val: any) {

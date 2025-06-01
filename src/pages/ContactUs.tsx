@@ -1,6 +1,7 @@
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
+import { LucideMail, LucideMessageCircle, LucidePhone } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
 import {
@@ -15,7 +16,6 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import config from '@/utils/config';
-import { LucideMail, LucideMessageCircle, LucidePhone } from 'lucide-react';
 
 const FormSchema = z.object({
   fullName: z.string().min(2, {

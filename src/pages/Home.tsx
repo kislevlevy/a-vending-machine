@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import Autoplay from 'embla-carousel-autoplay';
 
 import BoxReveal from '@/components/ui/box-reveal';
 import {
@@ -8,8 +9,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
-import Autoplay from 'embla-carousel-autoplay';
-
 import config from '@/utils/config';
 import BlurFade from '@/components/ui/blur-fade';
 

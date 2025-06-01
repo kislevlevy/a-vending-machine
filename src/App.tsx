@@ -10,6 +10,7 @@ import {
 // Pages:
 import Root from './layout/Root';
 import Home from './pages/Home';
+
 // Lazy Pages:
 const About = lazy(() => import('./pages/About'));
 const Error = lazy(() => import('./pages/Error'));
@@ -29,7 +30,8 @@ export default function App() {
         <Route path="צור-קשר" element={<ContactUs />} />
         <Route path="אודות" element={<About />} />
       </Route>
-    )
+    ),
+    { basename: '/a-vending-machine/' }
   );
   return <RouterProvider router={router} />;
 }

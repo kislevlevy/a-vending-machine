@@ -1,6 +1,5 @@
 import BlurFade from '@/components/ui/blur-fade';
 import BoxReveal from '@/components/ui/box-reveal';
-
 import config from '@/utils/config';
 
 export default function About() {

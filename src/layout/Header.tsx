@@ -60,7 +60,7 @@ export default function Header() {
       </Sheet>
 
       <Link to="/">
-        <img src="/mainLogo.png" className="h-20" alt={config.name} />
+        <img src="mainLogo.png" className="h-20" alt={config.name} />
       </Link>
     </nav>
   );
