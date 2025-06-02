@@ -91,4 +91,4 @@ To run the project locally, follow these steps:
    npm run dev
    ```
 
-> To view the production site, visit: [AVendingMachine](https://avendingmachine.kislev.me)
+> To view the production site, visit: [AVendingMachine](https://kislevlevy.github.io/a-vending-machine/)
