@@ -1,3 +1,3 @@
 export default function RootFallback() {
-  return <div>RootFallback</div>;
+  return <div></div>;
 }
