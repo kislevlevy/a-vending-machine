@@ -13,6 +13,7 @@ import { mdiMenu } from '@mdi/js';
 
 import { slugify } from '@/utils/slugify';
 import config from '@/utils/config';
+import { getAssetUrl } from '@/utils/paths';
 import {
   Sheet,
   SheetContent,
@@ -60,7 +61,7 @@ export default function Header() {
       </Sheet>
 
       <Link to="/">
-        <img src="mainLogo.png" className="h-20" alt={config.name} />
+        <img src={getAssetUrl('mainLogo.png')} className="h-20" alt={config.name} />
       </Link>
     </nav>
   );

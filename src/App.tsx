@@ -18,6 +18,7 @@ const Catalog = lazy(() => import('./pages/Catalog'));
 const ContactUs = lazy(() => import('./pages/ContactUs'));
 const Product = lazy(() => import('./pages/Product'));
 
+// App:
 export default function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -31,7 +32,7 @@ export default function App() {
         <Route path="אודות" element={<About />} />
       </Route>
     ),
-    { basename: '/a-vending-machine/' }
+    { basename: import.meta.env.VITE_BASE_URL || '/' }
   );
   return <RouterProvider router={router} />;
 }
